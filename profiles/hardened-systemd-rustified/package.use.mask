@@ -1,0 +1,2 @@
+# Replaced with the binary from ``sudo-rs``.
+sys-apps/util-linux su

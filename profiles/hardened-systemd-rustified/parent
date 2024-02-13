@@ -1,0 +1,4 @@
+gentoo:default/linux/amd64/17.1/hardened
+gentoo:targets/systemd
+gentoo:targets/desktop
+gentoo:features/merged-usr

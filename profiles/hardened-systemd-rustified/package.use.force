@@ -1,0 +1,2 @@
+# Swap out ``su`` from util-linux with the less unsafe one from sudo-rs.
+app-admin/sudo-rs su
