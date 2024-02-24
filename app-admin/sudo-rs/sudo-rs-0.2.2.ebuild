@@ -6,12 +6,12 @@
 EAPI=8
 
 CRATES="
-	diff@0.1.13
-	glob@0.3.1
-	libc@0.2.147
-	log@0.4.20
-	pretty_assertions@1.4.0
-	yansi@0.5.1
+        diff@0.1.13
+        glob@0.3.1
+        libc@0.2.153
+        log@0.4.20
+        pretty_assertions@1.4.0
+        yansi@0.5.1
 "
 
 inherit cargo pam
