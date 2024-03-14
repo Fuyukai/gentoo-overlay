@@ -2,4 +2,5 @@
 app-admin/sudo-rs su
 
 # Swap out Curl's SSL backend for rustls.
-net-misc/curl rustls curl_ssl_rustls
+# Broken on 32-bit ABI.
+# net-misc/curl rustls curl_ssl_rustls

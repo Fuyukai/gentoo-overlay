@@ -2,4 +2,5 @@
 sys-apps/util-linux su
 
 # Allow the usage of rustls for curl.
-net-misc/curl -rustls -curl_ssl_rustls openssl curl_ssl_openssl
+# Broken on 32-bit ABI.
+# net-misc/curl -rustls -curl_ssl_rustls openssl curl_ssl_openssl
