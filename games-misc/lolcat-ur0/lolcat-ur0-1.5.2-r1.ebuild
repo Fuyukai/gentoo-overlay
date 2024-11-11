@@ -58,8 +58,8 @@ LICENSE="Apache-2.0 Apache-2.0-with-LLVM-exceptions MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
+RUST_MIN_VERSION="1.71.0"
 BDEPEND="
-    >=virtual/rust-1.71
     app-arch/unzip
 "
 

@@ -1,2 +1,0 @@
-# modern desktop stack by default
-USE="wayland pipewire pulseaudio"

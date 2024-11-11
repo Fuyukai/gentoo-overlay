@@ -17,9 +17,9 @@ LICENSE="Apache-2.0 Apache-2.0-with-LLVM-exceptions Boost-1.0 MIT Unicode-DFS-20
 SLOT="0"
 KEYWORDS=""
 
+RUST_MIN_VERSION="1.72.0"
 DEPEND=""
 RDEPEND="${DEPEND}"
-BDEPEND=">=virtual/rust-1.72"
 
 src_unpack() {
     git-r3_src_unpack

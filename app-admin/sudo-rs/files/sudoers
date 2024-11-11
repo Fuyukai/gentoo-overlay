@@ -1,4 +1,0 @@
-## Uncomment to let all users in the ``wheel`` use sudo.
-# %wheel ALL=(ALL:ALL) ALL
-
-root ALL=(ALL:ALL) ALL

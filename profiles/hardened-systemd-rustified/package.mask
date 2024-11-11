@@ -1,2 +1,0 @@
-# Constantly filled with CVEs, which is not ideal for a setuid binary.
-app-admin/sudo
