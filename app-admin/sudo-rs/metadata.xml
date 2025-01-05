@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+    <maintainer type="person">
+        <email>suindraw+gentoo@gmail.com</email>
+        <name>Lura Skye</name>
+    </maintainer>
+    <upstream>
+        <remote-id type="github">memorysafety/sudo-rs</remote-id>
+    </upstream>
+    <use>
+        <flag name="su">Builds the su binary</flag>
+    </use>
+</pkgmetadata>
