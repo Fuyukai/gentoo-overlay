@@ -1,0 +1,8 @@
+## Replaced by ``app-admin/sudo-rs``.
+## Unmask if you really like C code running as setuid.
+app-admin/sudo
+
+## Replaced by ``app-admin/sudo-rs``.
+## Unmask if you really like C code running as setuid.
+app-admin/doas
+
