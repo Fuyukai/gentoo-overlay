@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+    <maintainer type="person">
+        <email>fuyukaii@proton.me</email>
+        <name>Lura Skye</name>
+    </maintainer>
+    <longdescription>
+        Wraps standalone Wayland compositors into a set of Systemd units on the fly.
+        This provides robust session management including environment, XDG autostart support,
+        bi-directional binding with login session, and clean shutdown.
+    </longdescription>
+
+    <upstream>
+        <remote-id type="github">Vladimir-csp/uwsm</remote-id>
+    </upstream>
+
+    <use>
+        <flag name="uuctl">Enables building the uuctl helper</flag>
+        <flag name="uwsm-app">Enables building the uwsm-app helper</flag>
+    </use>
+</pkgmetadata>
