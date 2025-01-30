@@ -1,0 +1,13 @@
+diff --git a/src/eventthread.cpp b/src/eventthread.cpp
+index 355b698..5f51f65 100644
+--- a/src/eventthread.cpp
++++ b/src/eventthread.cpp
+@@ -764,6 +764,8 @@ void EventThread::requestSettingsMenu()
+ 
+ void EventThread::showMessageBox(const char *body, int flags)
+ {
++	Debug() << body;
++
+     msgBoxDone.clear();
+     
+     // mkxp has already been asked to quit.

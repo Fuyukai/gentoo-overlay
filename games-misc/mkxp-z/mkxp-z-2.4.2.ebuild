@@ -64,6 +64,8 @@ PATCHES=(
     "${FILESDIR}/${PN}-2.4.2-use-system-iconv.patch"
     "${FILESDIR}/${PN}-2.4.2-use-xxd-plainname.patch"
     "${FILESDIR}/${PN}-2.4.2-remove-custom-install.patch"
+    # for my system without a way for sdl to show message boxes...?
+    "${FILESDIR}/${PN}-2.4.2-show-msgbox-as-debug.patch"
 )
 
 if [[ "${PN}" = "9999" ]]; then
