@@ -45,6 +45,7 @@ DEPEND="${RDEPEND}"
 BDEPEND="
     >=dev-build/meson-0.60
     || ( dev-util/xxd app-editors/vim )
+    app-text/dos2unix
 "
 
 if [[ ! "${PV}" = "9999" ]]; then
@@ -71,6 +72,13 @@ PATCHES=(
 if [[ "${PN}" = "9999" ]]; then
     PATCHES+=("${FILESDIR}/${PN}-2.4.3-use-system-sdl2-image.patch")
 fi
+
+src_prepare() {
+    # get line endings'd NERD
+    dos2unix "${S}/src/meson.build"
+
+    default_src_prepare
+}
 
 src_configure() {
     local ruby_version
