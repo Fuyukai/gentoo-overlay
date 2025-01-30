@@ -1,0 +1,10 @@
+diff --git a/meson.build b/meson.build
+index 17bb062..2fa7b62 100644
+--- a/meson.build
++++ b/meson.build
+@@ -1,4 +1,4 @@
+-project('mkxp-z', 'c', 'cpp', version: '2.4.2', meson_version: '>=0.56.0', default_options: ['cpp_std=c++14', 'buildtype=release'])
++project('mkxp-z', 'c', 'cpp', version: '2.4.2', meson_version: '>=0.60.0', default_options: ['cpp_std=c++14'])
+ 
+ host_system = host_machine.system()
+ 

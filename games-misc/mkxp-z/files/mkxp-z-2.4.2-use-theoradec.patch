@@ -1,0 +1,12 @@
+diff --git a/src/meson.build b/src/meson.build
+index df48105..c65027f 100755
+--- a/src/meson.build
++++ b/src/meson.build
+@@ -1,6 +1,6 @@
+ physfs = dependency('physfs', version: '>=2.1', static: build_static)
+ openal = dependency('openal', static: build_static, method: 'pkg-config')
+-theora = dependency('theora', static: build_static)
++theora = dependency('theoradec', static: build_static)
+ vorbisfile = dependency('vorbisfile', static: build_static)
+ vorbis = dependency('vorbis', static: build_static)
+ ogg = dependency('ogg', static: build_static)

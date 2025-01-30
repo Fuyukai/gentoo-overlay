@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+    <maintainer type="person">
+        <email>fuyukaii@proton.me</email>
+        <name>Lura Skye</name>
+    </maintainer>
+    <longdescription> 
+        Open-source cross-platform player for (some) RPG Maker XP / VX / VX Ace games. A very 
+        heavily modified fork of mkxp.
+    </longdescription>
+
+    <upstream>
+        <remote-id type="github">mkxp-z/mkxp-z</remote-id>
+    </upstream>
+
+    <use>
+        <flag name="fluidsynth">Enables MIDI support via fluidsynth</flag>
+    </use>
+</pkgmetadata>
