@@ -35,3 +35,10 @@ multilib_src_configure() {
 
     cmake_src_configure
 }
+
+multilib_src_install() {
+    cmake_src_install
+
+    # fix conflict between sdl1 sound and sdl2 sound
+    mv "${D}"/usr/bin/playsound "${D}"/usr/bin/playsound-sdl2
+}
