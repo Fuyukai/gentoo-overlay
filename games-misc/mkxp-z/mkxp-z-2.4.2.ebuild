@@ -30,6 +30,7 @@ RDEPEND="
     x11-libs/pixman
 
     media-libs/libsdl2[opengl]
+    media-libs/sdl2-image[png]
     media-libs/sdl2-ttf
     media-libs/sdl2-sound[vorbis,wav]
     media-libs/libpng:=
