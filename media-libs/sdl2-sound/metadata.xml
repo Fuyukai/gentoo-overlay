@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+    <maintainer type="person">
+        <email>fuyukaii@proton.me</email>
+        <name>Lura Skye</name>
+    </maintainer>
+    <longdescription> 
+        SDL_sound is a library that handles the decoding of several popular sound file
+        formats, such as .WAV and .MP3. It is meant to make the programmer's sound playback tasks
+        simpler.
+    </longdescription>
+
+    <upstream>
+        <remote-id type="github">icculus/SDL_sound</remote-id>
+    </upstream>
+
+    <use>
+        <flag name="aiff">Enables support for AIFF files</flag>
+        <flag name="pcm">Enables support for raw PCM</flag>
+        <flag name="voc">Enables support for Creative Labs Voice Audio</flag>
+        <flag name="wav">Enables support for raw .WAV files</flag>
+    </use>
+</pkgmetadata>
